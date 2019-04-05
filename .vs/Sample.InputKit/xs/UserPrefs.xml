@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{9143DB60-447F-445B-B3D8-B27C6AD143A4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Sample.InputKit/MainPage.xaml">
+    <Files>
+      <File FileName="Sample.InputKit/MainPage.xaml" Line="31" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Sample.InputKit" expanded="True">
+            <Node name="Sample.InputKit" expanded="True">
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="Sample.InputKit.Android" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Sample.InputKit.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Sample.InputKit.Android PreferredExecutionTarget="Android.5711d61d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local=" clr-namespace: exemplo .InputKit "
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
+             x:Class="Sample.InputKit.MainPage">
+    
+    <StackLayout >
+        
+                <Label Text="SEXO"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="StartAndExpand"
+                       TextColor="Black"/>
+        
+    <input:RadioButtonGroupView Margin="10, 0, 10, 0">
+            
+            <input:RadioButton Text= "Masculino"
+                               Margin="0, 0, 0, 20"
+                               HorizontalOptions="Start"
+                               VerticalOptions="StartAndExpand"
+                               TextFontSize="25"
+                               Color="#3B5998" TextColor="#448AFF"
+                               x:Name="Masc"/>
+            
+            <input:RadioButton Text= "Feminino"
+                               HorizontalOptions="Start"
+                               VerticalOptions="StartAndExpand"
+                               TextFontSize="25"
+                               Color="#FF1493" TextColor="#FF69B4"
+                               x:Name="Fem"/>
+            
+     </input:RadioButtonGroupView>
+        
+                <Label Text="COR"
+                       FontSize="35"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       VerticalOptions="StartAndExpand"
+                       TextColor="Black"/>
+        
+     <input:RadioButtonGroupView >
+            
+            <input:RadioButton Text= "Pardo"
+                               HorizontalOptions="Start"
+                               VerticalOptions="StartAndExpand"
+                               TextFontSize="25"
+                               Margin="0, 0, 0, 20"
+                               Color="Black" TextColor="Black"
+                               x:Name="Cor1"/>
+            
+            <input:RadioButton Text= "Negro"
+                               HorizontalOptions="Start"
+                               VerticalOptions="StartAndExpand"
+                               TextFontSize="25"
+                               Color="Black" TextColor="Black"
+                               x:Name="Cor2"/>
+       
+        </input:RadioButtonGroupView>
+        
+       <Button Text="Definir" Clicked="Handle_Clicked"/>
+       
+        <Label Text="A Definicao de Cor nao eh para separacao racial mas para a definicao do personagem que mais facilmente a crianca se identificara"
+                       HorizontalOptions="Center"
+                       VerticalOptions="EndAndExpand"
+                       FontSize="20"
+                       TextColor="Black"/>
+        
+    </StackLayout>
+    
+</ContentPage>
