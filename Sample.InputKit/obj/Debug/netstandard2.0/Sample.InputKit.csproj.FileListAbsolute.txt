@@ -9,3 +9,4 @@
 /Users/aluno/Projects/Sample.InputKit/Sample.InputKit/bin/Debug/netstandard2.0/Sample.InputKit.dll
 /Users/aluno/Projects/Sample.InputKit/Sample.InputKit/bin/Debug/netstandard2.0/Sample.InputKit.pdb
 /Users/aluno/Projects/Sample.InputKit/Sample.InputKit/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/aluno/Projects/Sample.InputKit/Sample.InputKit/obj/Debug/netstandard2.0/Sample.InputKit.csprojAssemblyReference.cache

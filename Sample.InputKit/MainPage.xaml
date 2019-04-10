@@ -8,8 +8,8 @@
     <StackLayout >
         
                 <Label Text="SEXO"
+                       FontFamily="Lobster-Regular.ttf#Lobster-Regular"
                        FontSize="35"
-                       FontAttributes="Bold"
                        HorizontalOptions="Center"
                        VerticalOptions="StartAndExpand"
                        TextColor="Black"/>
@@ -17,25 +17,28 @@
     <input:RadioButtonGroupView Margin="10, 0, 10, 0">
             
             <input:RadioButton Text= "Masculino"
-                               Margin="0, 0, 0, 20"
+                               FontFamily="LobsterTwo-Bold.ttf#LobsterTwo-Bold"
                                HorizontalOptions="Start"
                                VerticalOptions="StartAndExpand"
-                               TextFontSize="25"
+                               TextFontSize="35"
+                               Margin="20, 0, 0, 20"
                                Color="#3B5998" TextColor="#448AFF"
                                x:Name="Masc"/>
             
             <input:RadioButton Text= "Feminino"
+                               FontFamily="LobsterTwo-Bold.ttf#LobsterTwo-Bold"
                                HorizontalOptions="Start"
                                VerticalOptions="StartAndExpand"
-                               TextFontSize="25"
+                               TextFontSize="35"
+                               Margin="20, 0, 0, 20"
                                Color="#FF1493" TextColor="#FF69B4"
                                x:Name="Fem"/>
             
      </input:RadioButtonGroupView>
         
                 <Label Text="COR"
+                       FontFamily="Lobster-Regular.ttf#Lobster-Regular"
                        FontSize="35"
-                       FontAttributes="Bold"
                        HorizontalOptions="Center"
                        VerticalOptions="StartAndExpand"
                        TextColor="Black"/>
@@ -43,25 +46,28 @@
      <input:RadioButtonGroupView >
             
             <input:RadioButton Text= "Pardo"
+                               FontFamily="LobsterTwo-Bold.ttf#LobsterTwo-Bold"
                                HorizontalOptions="Start"
                                VerticalOptions="StartAndExpand"
-                               TextFontSize="25"
-                               Margin="0, 0, 0, 20"
-                               Color="Black" TextColor="Black"
+                               TextFontSize="35"
+                               Margin="30, 0, 0, 20"
+                               Color="#008B8B" TextColor="#20B2AA"
                                x:Name="Cor1"/>
             
             <input:RadioButton Text= "Negro"
+                               FontFamily="LobsterTwo-Bold.ttf#LobsterTwo-Bold"
                                HorizontalOptions="Start"
                                VerticalOptions="StartAndExpand"
-                               TextFontSize="25"
-                               Color="Black" TextColor="Black"
+                               TextFontSize="35"
+                               Margin="30, 0, 0, 20"
+                               Color="#008B8B" TextColor="#20B2AA"
                                x:Name="Cor2"/>
        
         </input:RadioButtonGroupView>
         
        <Button Text="Definir" Clicked="Handle_Clicked"/>
        
-        <Label Text="A Definicao de Cor nao eh para separacao racial mas para a definicao do personagem que mais facilmente a crianca se identificara"
+        <Label Text="A Definicao de Cor nao é para separação racial más para a definição do personagem que mais facilmente a crianca se identificara"
                        HorizontalOptions="Center"
                        VerticalOptions="EndAndExpand"
                        FontSize="20"
